@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "vigia",
+	"version": "${version}",
+	"name": "O Vigia",
+	"description": "Um livro, um trato e algo que observa você de longe.",
+	"authors": [
+		"Você"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.vigia.VigiaMod"
+		],
+		"client": [
+			"com.vigia.client.VigiaClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
